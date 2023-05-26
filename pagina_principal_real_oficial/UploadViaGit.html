@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="page.css">
+        <title>Passo a Passo Git GitHub</title>
+    </head>
+<body>
+    <header>
+        <ul class="cabecalho">
+        
+            <li >
+                <a href="index.html" class="link_header">Home</a>
+            </li>
+            <li>
+                <a href="primeirosPassos.html" class="link_header">Primeiros passos </a>
+            </li>
+
+            <li>
+                <a href="CriandoRepositorio.html" class="link_header">Criando repositórios via GitHub e Git</a>
+            </li>
+            <li>
+                <a href="UploadViaGit.html" class="link_header">Upload de arquivos via Git</a>
+            </li>
+            <li>
+                <a href="paginaVSCode.html" class="link_header">Upload de arquivos via VSCode</a>
+            </li>
+
+            <li >
+                <a href="formulario.html" class="link_header">Novidades</a>
+            </li>
+        </ul>
+            <h1 class="textoPrincipal">Aprenda o passo a passo de:</h1>
+
+
+    </header>
+
+    <main class="erros">
+        <div>
+            <center>
+                <h2 class="textoPrincipal">Como adcionar arquivos via terminal git pela primeira vez em 3 passos.</h2>
+            </center>   
+        </div>
+        <p>
+            1- Primeiro criamos repositório pasta local
+        </p>
+        <div>
+        </div>
+        <p>
+            2- depois criaremos um arquivo como por exemplo um arquivo README.md
+            Escreva: echo "# teste" >> README.md
+        </p>
+        <div>
+        </div>
+        <p>
+            3- então iniciaremos o git no repositório local , caso ainda não tenha sido iniciada <br>
+            3.1- Escreva: git init 
+        </p>
+        <div>
+        </div>
+        <p>
+            4- Depois enviamos um comando para o git adicionar um arquivo para ser comitado é enviado pro github<br>
+            4.1- git add README.md<br>
+            4.2- Caso deseje enviar varios arquivos basta escrever “git add . ”
+        </p>
+        <div>
+        </div>
+        <p>
+            5- Depois daremos um commit nós ou no arquivo adicionado . Um commit não passa de um texto indicando as alterações que foram feitas.<br>
+            5.1- Escreva: git commit -m "commit exemplo"
+        </p>
+        <div>
+        </div>
+        <p>
+            6- Agora indicaremos ao computador em qual caminho/branch de desenvolvimentos gostaríamos de adicionar os arquivos , como estamos na principal , enviaremos como exemplo pra main .<br>
+            6.1- Escreva: git branch -M main
+        </p>
+        <div>
+        </div>
+        <p>
+            7- Agora indicamos o repositorio on-line que queremos enviar remotamente o arquivo com o commite <br>
+            7.1- Escreva: git remote add origin <"url do repositorio on-line"> (tire as aspas)
+        </p>
+        <div>
+        </div>
+        <p>
+            8- É pronto basta enviar com o seguinte comando<br>
+            8.1- Escreva: git push -u origin main
+        </p>
+        <div>
+        </div>
+        <p>
+           Obs: Caso nunca tenha enviado ou logodao seu git no computador em questão sera pedido quer apos o passo anterio vc logue uma vez em sua conta Github , refazer o comando a partir do tópico 3.6
+        </p>
+        <div>
+            <hr>
+            <center>
+                <h2 class="textoPrincipal">Como adicionar arquivos via terminal git em 3 passos.</h2>
+            </center>   
+        </div>  
+        <div>
+            <p>
+                Antes de tudo, abra o terminal</div>
+            </p>
+        <div>
+            <p>
+                1- Escreva no terminal (.git remote add origin <"url do repositorio remoto">) (tire as aspas)
+            </p>
+        </div>
+        <div>
+            <p>
+                2- Escreva no terminal (.git branch -M main)
+            </p>
+        </div>
+        <div>
+            <p>
+                3- Escreva no terminal (.git push -u origin main)
+            </p>
+        </div>
+    </main>
+    <footer class="rodape">
+        <hr>
+        <h4 class="texto_footer">GitGroup</h4>
+        <h6 class="texto_footer">@2023</h6>
+    </footer>
+</body>
+</html>

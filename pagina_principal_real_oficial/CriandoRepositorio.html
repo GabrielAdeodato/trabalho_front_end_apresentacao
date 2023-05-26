@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="page.css">
+        <title>Passo a Passo Git GitHub</title>
+    </head>
+<body>
+    <header>
+        <ul class="cabecalho">
+        
+            <li >
+                <a href="index.html" class="link_header">Home</a>
+            </li>
+            <li>
+                <a href="primeirosPassos.html" class="link_header">Primeiros passos </a>
+            </li>
+
+            <li>
+                <a href="CriandoRepositorio.html" class="link_header">Criando repositórios via GitHub e Git</a>
+            </li>
+            <li>
+                <a href="UploadViaGit.html" class="link_header">Upload de arquivos via Git</a>
+            </li>
+            <li>
+                <a href="paginaVSCode.html" class="link_header">Upload de arquivos via VSCode</a>
+            </li>
+
+            <li >
+                <a href="formulario.html" class="link_header">Novidades</a>
+            </li>
+        </ul>
+            <h1 class="textoPrincipal">Aprenda o passo a passo de: </h1>
+
+    </header>
+
+    <main>
+        <div>
+            <center>
+                <h2 class="textoPrincipal">Como criar repositório via GitHub em 8 passos</h2>
+            </center>   
+        </div>
+
+        <div>
+            <p>
+                1- Primeiramente click no símbolo “+” no canto superior esquerdo.</br>
+                2- Em seguida click em “New Repository ” , então você será redirecionado para a página onde se iniciará o processo para criar um novo repositório  </br>
+            </p>
+            <img  height="75%" width="75%"  src="imagens criar repositório/new_repository.png" alt="logo github">
+        </div>
+        <div>
+            <p>
+                3- Primeira coisa é dar nome ao seu repositório </br>
+                Obs: Cabe observar que o nome de repositório não pode ter espaço entre palavras . Por isso é recomendado ao invés de se usar espaço , se utilize “-” ou “_” .
+            </p>
+            <p>
+                4- Logo a baixo a um espaço onde você pode descrever o conteúdo do repositório caso deseje. </br>
+            </p>
+            <p>    
+                5- Então abaixo existe a opção de escolher se o repositório é público ou privado </br>
+                Obs: Como o Github é uma comunidade Open source (Código aberto) , a opção padrão é pública porém é possível alterar nessa parte se desejar 
+            </p>
+            <p>
+                6- Logo a baixo a uma opção de adicionar um arquivo Readme ou um arquivo gitgnore </br>
+                Obs1: O Readme é um arquivo com extensão .md (Markdown). Contém informações necessárias para entender o objetivo do projeto. README é uma palavra em inglês que traduzida fica LEIAME.
+                Obs2: gitignore é um arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto. Um arquivo. gitignore local geralmente é colocado no diretório raiz de um projeto. Você também pode criar um arquivo .
+            </p>
+            <p>
+                7- Ao final para encerrar você tem a opção de adicionar uma licença . As licenças indicam ao usuário ou visitante do seu código o que é permitido ou não fazer com aquele código . </br>   
+            </p>
+            <p>
+                8- Agora basta clicar em “Creat repository” é pronto seu Repositorio esta criado . </br>
+            </p>
+            <img  height="100%" width="100%"  src="imagens criar repositório/create_repository.png" alt="logo github"></br>
+        </div>
+        <div>
+            <hr>
+            <center>
+                <h2 class="textoPrincipal">Como criar repositório via Git em 3 passos.</h2>
+            </center>   
+        </div>  
+        <div>
+            <p>
+                1- Para criar um repositório para seu projeto no GitHub, use o subcomando “gh repo create” . Quando solicitado, selecione Efetuar push de um repositório local existente para o GitHub e digite o nome desejado para o repositório. Caso você deseje que o seu projeto pertença a uma organização em vez da sua conta de usuário, especifique o nome da organização e o nome do projeto com “organization-name/project-name”</br>
+            </p>   
+        </div>
+        <div>
+            <p>
+                2- Siga as instruções interativas. Para adicionar o controle remoto e fazer push do repositório, confirme sim quando solicitado para adicionar o controle remoto e enviar os commits para o branch atual.
+            </br>    
+            </p>
+        </div>
+        <div>
+            <p>
+                3- Como alternativa, para ignorar todos os prompts, forneça o caminho para o repositório com o sinalizador (--source) e passe um sinalizador de visibilidade (--public, --private ou --internal). Por exemplo, gh repo create --source=. --public. Especifique um repositório remoto com o sinalizador --remote. Para enviar seus commits por push, passe o sinalizador --push. Para obter mais informações sobre os possíveis argumentos, confira o manual da CLI do GitHub (https://cli.github.com/manual/gh_repo_create)
+            </br>           
+            </p>
+        </div>
+    </main>
+    <footer class="rodape">
+        <hr>
+        <h4 class="texto_footer">GitGroup</h4>
+        <h6 class="texto_footer">@2023</h6>
+    </footer>
+</body>
+</html>
